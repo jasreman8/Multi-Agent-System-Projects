@@ -15,3 +15,10 @@ Project 2: Implemented a Multi-Agent RAG system using LangGraph with dynamic que
 Project 3: Implemented a full agentic onboarding workflow using CrewAI (Agent, Task, Crew, Process):
 - Designed specialized HR, IT, and Welcome agents coordinating end-to-end onboarding tasks
 - Structured modular tasks enabling scalable, domain-specific agent collaboration
+
+Project 4: Implemented supervisor–subordinate (supervisor/worker) multi-agent pattern using LangGraph:
+- Added Supervisor agent to decompose complex user queries and delegate to specialist agents
+- Built Market Researcher agent for web search + internal product database lookups
+- Built Sales Analyst agent for internal sales data retrieval + calculator-based computations
+- Integrated toolset (web search, calculator, product DB, sales DB) with role-specific tool access
+- Defined end-to-end workflow graph for task routing, execution, and final synthesis
